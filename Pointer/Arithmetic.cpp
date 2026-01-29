@@ -16,11 +16,26 @@ int main(){
 
     */
 
+    /*
     bool flag = true;                      
     bool* ptr = &flag;
     cout<<ptr<<endl; // 0x61ff0b
     ptr++;
     cout<<ptr<<endl; // 0x61ff0c
+    */
 
+    /*
+    int x = 3;                      
+    int* ptr = &x;
+    cout<<*ptr<<endl; // 3
+    ptr++;
+    cout<<*ptr<<endl; // 6422284
+    */
+
+    int x = 4;                      
+    int* ptr = &x;
+    cout<<*ptr<<endl; // 4
+    (*ptr)++;
+    cout<<*ptr<<endl; // 5
 
 }
